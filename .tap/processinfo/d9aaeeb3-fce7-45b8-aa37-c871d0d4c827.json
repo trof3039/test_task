@@ -1,0 +1,274 @@
+{
+  "date": "2025-07-09T13:07:49.304Z",
+  "argv": [
+    "/Users/antontrofymenko/.nvm/versions/node/v20.17.0/bin/node",
+    "/Users/antontrofymenko/code/test_task/test/unit/NotesService.test.js"
+  ],
+  "execArgv": [
+    "--import=file:///Users/antontrofymenko/code/test_task/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///Users/antontrofymenko/code/test_task/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///Users/antontrofymenko/code/test_task/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/Users/antontrofymenko/code/test_task",
+  "pid": 49344,
+  "ppid": 49338,
+  "parent": null,
+  "uuid": "d9aaeeb3-fce7-45b8-aa37-c871d0d4c827",
+  "files": [
+    "/Users/antontrofymenko/code/test_task/test/unit/NotesService.test.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "/Users/antontrofymenko/code/test_task/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import-loader.mjs",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/walk-up-path/dist/mjs/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/ast.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/escape.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/unescape.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/path-scurry/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/lru-cache/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/minipass/dist/esm/index.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
+    "/Users/antontrofymenko/code/test_task/src/services/NotesService.js",
+    "/Users/antontrofymenko/code/test_task/src/models/Note.js"
+  ],
+  "sources": {
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/import.mjs": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/import.mts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/service-key.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/walk-up-path/dist/mjs/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/glob.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/has-magic.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/ignore.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/pattern.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/ast.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/ast.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/escape.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/escape.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/unescape.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/path-scurry/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/path-scurry/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/walker.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/minimatch/src/brace-expressions.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/lru-cache/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/lru-cache/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/minipass/dist/esm/index.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/minipass/src/index.ts"
+    ],
+    "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js": [
+      "/Users/antontrofymenko/code/test_task/node_modules/resolve-import/node_modules/glob/src/processor.ts"
+    ]
+  },
+  "root": "d9aaeeb3-fce7-45b8-aa37-c871d0d4c827",
+  "externalID": "test/unit/NotesService.test.js",
+  "code": 0,
+  "signal": null,
+  "runtime": 1630.344625,
+  "globalsAdded": [
+    "__extends",
+    "__assign",
+    "__rest",
+    "__decorate",
+    "__param",
+    "__esDecorate",
+    "__runInitializers",
+    "__propKey",
+    "__setFunctionName",
+    "__metadata",
+    "__awaiter",
+    "__generator",
+    "__exportStar",
+    "__createBinding",
+    "__values",
+    "__read",
+    "__spread",
+    "__spreadArrays",
+    "__spreadArray",
+    "__await",
+    "__asyncGenerator",
+    "__asyncDelegator",
+    "__asyncValues",
+    "__makeTemplateObject",
+    "__importStar",
+    "__importDefault",
+    "__classPrivateFieldGet",
+    "__classPrivateFieldSet",
+    "__classPrivateFieldIn",
+    "__addDisposableResource",
+    "__disposeResources",
+    "__rewriteRelativeImportExtension"
+  ]
+}

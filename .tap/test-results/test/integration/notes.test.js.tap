@@ -1,0 +1,225 @@
+TAP version 14
+# Subtest: setup
+    ok 1 - Setup completed
+    1..1
+ok 1 - setup # time=1534.615ms
+
+# Subtest: POST /api/v1/notes
+    # Subtest: should create a note successfully
+        ok 1 - Should return 201 status
+        ok 2 - Response should include note ID
+        ok 3 - Title should match
+        ok 4 - Body should match
+        ok 5 - Should include createdAt
+        ok 6 - Should include updatedAt
+        1..6
+    ok 1 - should create a note successfully # time=64.306ms
+    
+    # Subtest: should return 400 for missing title
+        ok 1 - Should return 400 status
+        ok 2 - Should include error message
+        ok 3 - Should include status code
+        1..3
+    ok 2 - should return 400 for missing title # time=1.223ms
+    
+    # Subtest: should return 400 for missing body
+        ok 1 - Should return 400 status
+        ok 2 - Should include error message
+        1..2
+    ok 3 - should return 400 for missing body # time=0.48ms
+    
+    # Subtest: should validate title length
+        ok 1 - Should return 400 for title too long
+        1..1
+    ok 4 - should validate title length # time=0.364ms
+    
+    1..4
+ok 2 - POST /api/v1/notes # time=75.75ms
+
+# Subtest: GET /api/v1/notes
+    # Subtest: should return empty array when no notes exist
+        ok 1 - Should return 200 status
+        ok 2 - Should return an array
+        ok 3 - Should return empty array
+        1..3
+    ok 1 - should return empty array when no notes exist # time=3.025ms
+    
+    # Subtest: should return all notes
+        ok 1 - Should return 200 status
+        ok 2 - Should return 3 notes
+        ok 3 - Each note should have an ID
+        ok 4 - Each note should have a title
+        ok 5 - Each note should have a body
+        1..5
+    ok 2 - should return all notes # time=5.309ms
+    
+    # Subtest: should respect limit query parameter
+        ok 1 - Should return 200 status
+        ok 2 - Should return only 2 notes
+        1..2
+    ok 3 - should respect limit query parameter # time=3.226ms
+    
+    # Subtest: should respect skip query parameter
+        ok 1 - Should return 200 status
+        ok 2 - Should return 2 notes
+        1..2
+    ok 4 - should respect skip query parameter # time=2.525ms
+    
+    1..4
+ok 3 - GET /api/v1/notes # time=17.865ms
+
+# Subtest: GET /api/v1/notes/:id
+    # Subtest: should return note by valid ID
+        ok 1 - Should return 200 status
+        ok 2 - Should return correct note
+        ok 3 - Title should match
+        ok 4 - Body should match
+        1..4
+    ok 1 - should return note by valid ID # time=2.249ms
+    
+    # Subtest: should return 404 for non-existent ID
+        ok 1 - Should return 404 status
+        ok 2 - Should include error message
+        ok 3 - Should include status code
+        1..3
+    ok 2 - should return 404 for non-existent ID # time=1.39ms
+    
+    # Subtest: should return 400 for invalid ID format
+        ok 1 - Should return 400 for invalid ID format
+        ok 2 - Should include error message
+        ok 3 - Should include status code
+        1..3
+    ok 3 - should return 400 for invalid ID format # time=0.576ms
+    
+    1..3
+ok 4 - GET /api/v1/notes/:id # time=7.082ms
+
+# Subtest: GET /api/v1/notes/search
+    # Subtest: should search notes by title
+        ok 1 - Should return 200 status
+        ok 2 - Should find notes
+        ok 3 - Should find JavaScript note
+        1..3
+    ok 1 - should search notes by title # time=1.524ms
+    
+    # Subtest: should search notes by body content
+        ok 1 - Should return 200 status
+        ok 2 - Should find notes
+        ok 3 - Should find note with components
+        1..3
+    ok 2 - should search notes by body content # time=1.341ms
+    
+    # Subtest: should return 400 for missing query parameter
+        ok 1 - Should return 400 status
+        ok 2 - Should include error message
+        1..2
+    ok 3 - should return 400 for missing query parameter # time=0.496ms
+    
+    # Subtest: should handle empty search results
+        ok 1 - Should return 200 status
+        ok 2 - Should return empty array
+        1..2
+    ok 4 - should handle empty search results # time=1.862ms
+    
+    # Subtest: should respect limit in search
+        ok 1 - Should return 200 status
+        ok 2 - Should respect limit parameter
+        1..2
+    ok 5 - should respect limit in search # time=3.49ms
+    
+    1..5
+ok 5 - GET /api/v1/notes/search # time=23.58ms
+
+# Subtest: PUT /api/v1/notes/:id
+    # Subtest: should update note successfully
+        ok 1 - Should return 200 status
+        ok 2 - Title should be updated
+        ok 3 - Body should be updated
+        ok 4 - ID should remain the same
+        1..4
+    ok 1 - should update note successfully # time=4.548ms
+    
+    # Subtest: should return 404 for non-existent note
+        ok 1 - Should return 404 status
+        1..1
+    ok 2 - should return 404 for non-existent note # time=1.167ms
+    
+    # Subtest: should allow partial updates
+        ok 1 - Should return 200 status
+        ok 2 - Title should be updated
+        ok 3 - Body should remain unchanged
+        1..3
+    ok 3 - should allow partial updates # time=1.831ms
+    
+    1..3
+ok 6 - PUT /api/v1/notes/:id # time=10.072ms
+
+# Subtest: DELETE /api/v1/notes/:id
+    # Subtest: should delete note successfully
+        ok 1 - Should return 200 status
+        ok 2 - Should confirm deletion
+        ok 3 - Should include success message
+        ok 4 - Note should be deleted from database
+        1..4
+    ok 1 - should delete note successfully # time=2.707ms
+    
+    # Subtest: should return 404 for non-existent note
+        ok 1 - Should return 404 status
+        1..1
+    ok 2 - should return 404 for non-existent note # time=0.775ms
+    
+    1..2
+ok 7 - DELETE /api/v1/notes/:id # time=4.861ms
+
+# Subtest: GET /api/v1/notes/vector-search (bonus)
+    # Subtest: should return empty results when no embeddings exist
+        ok 1 - Should return 200 status
+        ok 2 - Should return empty array when no embeddings exist
+        1..2
+    ok 1 - should return empty results when no embeddings exist # time=2.475ms
+    
+    # Subtest: should return 400 for missing query parameter
+        ok 1 - Should return 400 status
+        ok 2 - Should include error message
+        1..2
+    ok 2 - should return 400 for missing query parameter # time=0.384ms
+    
+    # Subtest: should handle threshold parameter
+        ok 1 - Should return 200 status
+        1..1
+    ok 3 - should handle threshold parameter # time=1.266ms
+    
+    1..3
+ok 8 - GET /api/v1/notes/vector-search (bonus) # time=6.162ms
+
+# Subtest: GET /health
+    # Subtest: should return health status
+        ok 1 - Should return 200 status
+        ok 2 - Should return ok status
+        ok 3 - Should include timestamp
+        ok 4 - Should include uptime
+        ok 5 - Should include database status
+        ok 6 - Should include version
+        1..6
+    ok 1 - should return health status # time=0.828ms
+    
+    1..1
+ok 9 - GET /health # time=1.553ms
+
+# Subtest: Integration - Complete workflow
+    # Subtest: should handle complete CRUD workflow
+        ok 1 - Should create note
+        ok 2 - Should get note by ID
+        ok 3 - Should update note
+        ok 4 - Title should be updated
+        ok 5 - Should search notes
+        ok 6 - Should find updated note
+        ok 7 - Should delete note
+        ok 8 - Should return 404 for deleted note
+        1..8
+    ok 1 - should handle complete CRUD workflow # time=4.355ms
+    
+    1..1
+ok 10 - Integration - Complete workflow # time=5.089ms
+
+1..10

@@ -1,0 +1,36 @@
+{
+  "name": "mod-notes",
+  "version": "1.0.0",
+  "description": "A modular Fastify plugin for notes management with MongoDB and optional vector search",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "test:unit": "tap test/unit/**/*.test.js",
+    "test:integration": "tap test/integration/**/*.test.js",
+    "dev": "node example.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "notes",
+    "mongodb",
+    "vector-search"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/rate-limit": "^9.1.0",
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/swagger-ui": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-plugin": "^4.5.1",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.1.3",
+    "tap": "^18.6.1"
+  }
+}

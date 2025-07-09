@@ -1,0 +1,357 @@
+{
+  "result": [
+    {
+      "scriptId": "1365",
+      "url": "file:///Users/antontrofymenko/code/test_task/src/services/NotesService.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 5534,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "createNote",
+          "ranges": [
+            {
+              "startOffset": 102,
+              "endOffset": 563,
+              "count": 39
+            },
+            {
+              "startOffset": 205,
+              "endOffset": 213,
+              "count": 38
+            },
+            {
+              "startOffset": 215,
+              "endOffset": 280,
+              "count": 2
+            },
+            {
+              "startOffset": 280,
+              "endOffset": 472,
+              "count": 37
+            },
+            {
+              "startOffset": 472,
+              "endOffset": 559,
+              "count": 2
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getAllNotes",
+          "ranges": [
+            {
+              "startOffset": 567,
+              "endOffset": 938,
+              "count": 4
+            },
+            {
+              "startOffset": 844,
+              "endOffset": 934,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getNoteById",
+          "ranges": [
+            {
+              "startOffset": 942,
+              "endOffset": 1231,
+              "count": 5
+            },
+            {
+              "startOffset": 1024,
+              "endOffset": 1054,
+              "count": 1
+            },
+            {
+              "startOffset": 1054,
+              "endOffset": 1138,
+              "count": 4
+            },
+            {
+              "startOffset": 1138,
+              "endOffset": 1227,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "searchNotes",
+          "ranges": [
+            {
+              "startOffset": 1235,
+              "endOffset": 2532,
+              "count": 5
+            },
+            {
+              "startOffset": 1303,
+              "endOffset": 1331,
+              "count": 4
+            },
+            {
+              "startOffset": 1333,
+              "endOffset": 1361,
+              "count": 1
+            },
+            {
+              "startOffset": 1361,
+              "endOffset": 1933,
+              "count": 4
+            },
+            {
+              "startOffset": 1942,
+              "endOffset": 2528,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "updateNote",
+          "ranges": [
+            {
+              "startOffset": 2536,
+              "endOffset": 3148,
+              "count": 6
+            },
+            {
+              "startOffset": 2629,
+              "endOffset": 2659,
+              "count": 2
+            },
+            {
+              "startOffset": 2659,
+              "endOffset": 2843,
+              "count": 4
+            },
+            {
+              "startOffset": 2843,
+              "endOffset": 2875,
+              "count": 2
+            },
+            {
+              "startOffset": 2875,
+              "endOffset": 3057,
+              "count": 4
+            },
+            {
+              "startOffset": 3057,
+              "endOffset": 3144,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "deleteNote",
+          "ranges": [
+            {
+              "startOffset": 3152,
+              "endOffset": 3447,
+              "count": 6
+            },
+            {
+              "startOffset": 3233,
+              "endOffset": 3264,
+              "count": 2
+            },
+            {
+              "startOffset": 3264,
+              "endOffset": 3356,
+              "count": 4
+            },
+            {
+              "startOffset": 3356,
+              "endOffset": 3443,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "vectorSearch",
+          "ranges": [
+            {
+              "startOffset": 3451,
+              "endOffset": 4246,
+              "count": 4
+            },
+            {
+              "startOffset": 4145,
+              "endOffset": 4242,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 3813,
+              "endOffset": 3932,
+              "count": 4
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 3993,
+              "endOffset": 4029,
+              "count": 4
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 4045,
+              "endOffset": 4082,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "generateMockEmbedding",
+          "ranges": [
+            {
+              "startOffset": 4250,
+              "endOffset": 4729,
+              "count": 10
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 4400,
+              "endOffset": 4583,
+              "count": 18
+            },
+            {
+              "startOffset": 4510,
+              "endOffset": 4577,
+              "count": 6912
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 4640,
+              "endOffset": 4669,
+              "count": 3840
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 4701,
+              "endOffset": 4723,
+              "count": 3840
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "calculateCosineSimilarity",
+          "ranges": [
+            {
+              "startOffset": 4733,
+              "endOffset": 5274,
+              "count": 8
+            },
+            {
+              "startOffset": 4810,
+              "endOffset": 4819,
+              "count": 0
+            },
+            {
+              "startOffset": 4944,
+              "endOffset": 5068,
+              "count": 1548
+            },
+            {
+              "startOffset": 5205,
+              "endOffset": 5214,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "simpleHash",
+          "ranges": [
+            {
+              "startOffset": 5278,
+              "endOffset": 5499,
+              "count": 18
+            },
+            {
+              "startOffset": 5355,
+              "endOffset": 5468,
+              "count": 107
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1366",
+      "url": "file:///Users/antontrofymenko/code/test_task/src/models/Note.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 758,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 581,
+              "endOffset": 634,
+              "count": 37
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 93048.761667,
+  "source-map-cache": {}
+}
